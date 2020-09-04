@@ -1,4 +1,4 @@
-# DeathPlus - Plugin to manage your server
+# DeathPlus - Minecraft Plugin
 
 Want to add a flavor to your game? Well, this plugin is definitely for you and your friends. Whenever you die,
 your character can get a random potion effect, get kicked, or complete a MLG water bucket challenge. You should definitely

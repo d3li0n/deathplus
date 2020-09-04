@@ -7,6 +7,7 @@ import me.d3li0n.deathplus.listeners.PlayerJoin;
 import me.d3li0n.deathplus.listeners.PlayerRespawn;
 import me.d3li0n.deathplus.utils.FileManager;
 import me.d3li0n.deathplus.utils.PlayerManager;
+import me.d3li0n.deathplus.utils.UpdateChecker;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -22,6 +23,9 @@ public class Main extends JavaPlugin {
             Bukkit.getLogger().info("[Death Plus] Plugin is disabled. If you want to enable it, check your config.yml.");
             Bukkit.getPluginManager().disablePlugin(this);
         } else {
+
+            if (!new UpdateChecker(this).isUpdated()) Bukkit.getLogger().warning("[DeathPlus] Current version seems to be out of date. Please update this plugin, as new versions may contain security fixes.");
+            else Bukkit.getLogger().info("[DeathPlus] Current version is up to date.");
 
             this.manager.readLangFile(getPluginLang());
 

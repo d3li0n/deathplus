@@ -35,7 +35,7 @@ This plugin has a decent configuration at this stage(even more will be added).
   [on-player-consume-milk] to [false].
   
 # Support
-If you need to report a bug or want to suggest a new feature, you can [open an issue ticket on GitHub](https://github.com/d3li0n/admintools/issues).
+If you need to report a bug or want to suggest a new feature, you can [open an issue ticket on GitHub](https://github.com/d3li0n/deathplus/issues).
 
 # License
 This project has been licensed under [GNU General Public License v3.0](https://github.com/d3li0n/deathplus/blob/master/LICENSE)

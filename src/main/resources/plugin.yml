@@ -1,0 +1,12 @@
+main: me.d3li0n.deathplus.Main
+name: DeathPlus
+version: '0.0.1'
+author: d3li0n
+api-version: 1.16
+description: This plugin adds a tweak when player dies. The outcome can be deadly bad or good.
+
+commands:
+  Deaths:
+    usage: /<command>
+    description: "Show how many times player died."
+    permissions: deathplus.deaths

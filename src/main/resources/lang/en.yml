@@ -1,0 +1,33 @@
+errors:
+  commands:
+    no-permissions: "&cYou don't have permissions to run this command."
+    not-found: "&cPlayer &f%player%&c is not online."
+  use:
+    milk: "&cYou tried to drink &fmilk&c. How dare you? Don't try it again!"
+commands:
+  deaths:
+    message: "&cYou died &f%deaths%&c times."
+    other_player: "&cPlayer &f%player%&c died &f%deaths%&c times."
+title:
+  final_death_after_grace: "The Game Has Now Begun"
+  mlg:
+    name: "MLG TIME"
+    description: "Use your water bucket to land smoothly"
+messages:
+  admin_message: "&a[DeathPlus]: &cWarning! &fDeathPlus plugin is enabled. If player dies - random events can happen to him."
+  player_message: "&cYou died &f%deaths%&c times."
+  grace_period: "&fYou've died, but grace period was enabled. Lives remaining before random events happen with you: &c%lives%&f."
+  grace_final: "This was your final grace heart before random events will happen with you. Be careful!"
+  player_death_message: "&cI know it's obvious, but you died :C"
+  kick_message:
+    - ""
+    - ""
+    - "&cOoops.&f You got unlucky with your &cdeath&f, and got kicked."
+    - ""
+    - ""
+  players_death_message:
+    kicked: "%player% died, and got very lucky! They were kicked from server!"
+    challenge: "%player% died, and got very lucky! They need to MLG Water!"
+    potion: "%player% died, and got very lucky! Only one effect applied!"
+    potions: "%player% died, and got very very lucky! They got a free pack of bad effects!"
+    health: "%player% died, and got super lucky. Only couple of hearts got removed from him!"

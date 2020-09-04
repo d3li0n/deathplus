@@ -1,0 +1,8 @@
+general:
+  language: "en" # Plugin's language
+  on-enable: true # Should plugin be enabled when server started?
+  on-player-join-message: true # When player joins, the message with number of deaths shows (Disabled for opped and players with bypass permissions)
+  on-player-consume-milk: true # If true - player cannot consume milk when plugin's effects applied
+  player:
+    graceEnabled: true # If enabled, player will have certain amount of lives(see below) before plugin will start it's work
+    graceLiveCount: 5 # Amount of lives player has before the plugin will start it's work
